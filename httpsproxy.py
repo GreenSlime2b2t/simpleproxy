@@ -16,7 +16,7 @@ while True:
     client_socket, client_address = server_socket.accept()
     print(f"Connection established from {client_address}")
     try:
-        url="https://google.com"
+        url=""
         headers = {
             "User-Agent" : "ProxyServer"
         }
